@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(27, 103, 133);
+}
+.display1 {
+  height: 80px;
+  background-color: black;
+  color: white;
+  line-height: 80px;
+  font-size: 2.5em;
+  direction: rtl;
+  padding: 0 0.25em 0 0.25em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+  display: flex;
+  width: 400px;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.cal-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cal-btn {
+  flex-basis: 25%;
+  height: 90px;
+  border: 1px solid black;
+  font-weight: 500;
+  font-size: 2em;
+  background-color: #d8d9db;
+}
+.cal-btn:active{
+    filter: brightness(75%);
+    
+}
+.flex-50 {
+  flex-basis: 50%;
+}
+
+.flex-75 {
+  flex-basis: 75%;
+}
+
+.orange {
+  background-color: #df974c;
+  color: white;
+}
